@@ -81,6 +81,9 @@ a {
   color: var(--black);
   margin-bottom: 1.2rem;
 }
+.card__title:hover {
+  color: var(--yellow);
+}
 .card__description {
   font-weight: 500;
   font-size: var(--middle-title-fs);
