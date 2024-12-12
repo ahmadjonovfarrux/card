@@ -1,0 +1,107 @@
+@import "./root.css";
+
+@font-face {
+  font-display: swap;
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/figtree-v6-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/figtree-v6-latin-800.woff2") format("woff2");
+}
+
+body {
+  font-size: 62.5%;
+  background-color: var(--yellow);
+  color: var(--grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 38.4rem;
+  height: 49rem;
+  border-radius: 2rem;
+  background-color: var(--white);
+  padding: 2.4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 8px 8px 0px 0px #000000;
+}
+.card__img {
+  width: 33.6rem;
+  height: 20rem;
+  margin-bottom: 2.4rem;
+}
+.card-content {
+  width: 33.6rem;
+  height: 20rem;
+}
+.card__link {
+  display: inline-block;
+  font-size: var(--small-title-fs);
+  line-height: var(--small-title-lh);
+  font-weight: 800;
+  padding: 0.4rem 1.2rem;
+  background-color: var(--yellow);
+  margin-bottom: 1.2rem;
+  color: var(--black);
+}
+.card__subtitle {
+  color: var(--grey);
+  font-size: var(--small-title-fs);
+  line-height: var(--small-title-lh);
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+.card__title {
+  font-weight: 800;
+  font-size: var(--large-title-fs);
+  line-height: var(--large-title-lh);
+  color: var(--black);
+  margin-bottom: 1.2rem;
+}
+.card__description {
+  font-weight: 500;
+  font-size: var(--middle-title-fs);
+  line-height: var(--middle-title-lh);
+  margin-bottom: 2.4rem;
+}
+.card__founder {
+  width: 12.9rem;
+  height: 3.2rem;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.card__founder__img {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+}
+.card__founder__name {
+  font-weight: 800;
+  font-size: var(--small-title-fs);
+  line-height: var(--small-title-lh);
+  color: var(--black);
+}

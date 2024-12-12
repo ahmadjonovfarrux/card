@@ -1,0 +1,18 @@
+:root {
+  --yellow:#F4D04E;
+  --black:#111111;
+  --grey:#7F7F7F;
+  --white:#ffffff;
+
+
+  /* Font-size */
+  --large-title-fs:2.4rem;
+  --large-title-lh:1.5;
+
+  --middle-title-fs:1.6rem;
+  --middle-title-lh:1.5;
+
+  --small-title-fs:1.4rem;
+  --small-title-lh:1.5;
+
+}
